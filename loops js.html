@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //loops :used to execute a block of code repeatedly until a specific condition is met
+
+        //for loop used when you know no. of iteration in advance
+
+        let studentlist=["anirudddha","manan","shaurya","amol"];
+
+        for (let i=0;i<studentlist.length;i++){
+            console.log(studentlist[i]);
+        }
+
+    //while loop used when you dont know no. of iteration in advance
+    
+            let x=0;
+            while(x<studentlist.length){
+            console.log(studentlist[x]);
+            x++;
+        }
+
+// for ..... of .iterative over the value of  iterable object (like array,string,map,set)
+
+        for (let y of studentlist){
+            console.log(y);
+        }
+    </script>
+    
+</body>
+</html>

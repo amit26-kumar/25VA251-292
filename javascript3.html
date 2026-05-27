@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page1</title>
+</head>
+<body>
+    <script>
+        //js variable data types
+
+        //primitive: imutable single value and stores in memory .
+
+        //string===
+
+        var myName="Anubhav";
+        console.log("My name is "+ myName);
+        console.log(typeof(myName));
+        //number
+        var myMob=478932717;
+        console.log("My mobile no is"+ myMob);
+        console.log(typeof(myMob));
+
+        //Boolean
+        var isMarried=false;
+        console.log(myName+"is Married ? "+ isMarried);
+        console.log(typeof(isMarried));
+//undefined
+var myAdd;
+console.log(myName+"adress is"+ myAdd);
+console.log(typeof(myAdd));
+
+//null
+var myEmail=null;
+console.log(myEmail);
+console.log(typeof(myEmail));
+
+
+//bigint
+var myValue = BigInt("736548978927589789734288888888888888");
+console.log(myValue);
+console.log(typeof(myValue));
+
+//Symbol
+var val1 = Symbol("Hello");
+var val2 = Symbol("Hello");
+
+console.log(val1 == val2);
+console.log(typeof(val1) + " and " + typeof(val2));
+
+
+// object classes
+
+let myInfo={
+    name:"Amit Kumar",
+    age:17,
+    mob:792389747832,
+    email:"amitk985654@gmail.com",
+    isMarried:false,
+    address:null,
+    branch:"CSE",
+    section:18,
+
+}
+console.log(myInfo);
+console.log(myInfo.branch);
+console.log(Object.keys(myInfo).length);
+
+
+
+//create an array 
+let studentDetails=["Amit",18,false,"amitk985654@gmail.com","GZB"];
+console.log(studentDetails[3]);
+console.log(studentDetails[4]);
+console.log(studentDetails.length);
+
+for( i=0;i<studentDetails.length;i++)
+{
+    console.log(studentDetails[i]);
+}
+
+ 
+//Function kaisa cretae kra 
+function myCall()
+{
+    let num1=5;
+    let num2=10;
+    let result=num1+num2;
+    console.log("Addition of two number is " + (num1+num2));
+    console.log(result);
+
+}
+
+myCall();
+
+    </script>
+</body>
+</html>
